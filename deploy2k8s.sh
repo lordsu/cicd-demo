@@ -5,10 +5,10 @@ set -eu
 
 #定义常量
 PROJECT_NAME="cicd-demo"
-UPLOAD_DIR="/home/hellxz/apps/${PROJECT_NAME}"
+UPLOAD_DIR="/home/root/apps/${PROJECT_NAME}"
 FILE_NAME="${UPLOAD_DIR}/deploy.yaml"
-SSH_USER="hellxz"
-SSH_IP="192.168.87.129"
+SSH_USER="root"
+SSH_IP="192.168.137.61"
 
 #首先删除待上传目录的同名文件
 ssh ${SSH_USER}@${SSH_IP} "rm -rf ${FILE_NAME}"
