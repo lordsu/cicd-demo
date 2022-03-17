@@ -11,7 +11,7 @@ public class CicdDemoApplication {
 
 	@GetMapping("/test")
 	public String test(){
-		return "Deploy Success!";
+		return "Deploy Success again!";
 	}
 
 	public static void main(String[] args) {
